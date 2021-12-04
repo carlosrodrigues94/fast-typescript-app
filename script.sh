@@ -12,6 +12,9 @@ else
   mkdir $applications_folder/$application_name
 fi
 
+yarn
+wait
+
 cd $applications_folder/$application_name
 
 yarn init -y
