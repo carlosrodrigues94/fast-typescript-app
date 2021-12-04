@@ -59,7 +59,7 @@ app.get("/", (req:Request, res:Response) => {
   return res.json({ok:true})
 })
 
-app.listen(3333)' >> server.ts
+app.listen(3333, () => console.log("App Running on 3333"))' >> server.ts
 
 cd ..
 cd ..
